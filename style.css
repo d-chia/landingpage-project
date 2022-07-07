@@ -4,14 +4,16 @@ body {
     margin: 0px;
 }
 
-.header-container {
+/* header stylings and layout */
+
+header {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header {
+.header-container {
     height: 60px;
     width: 80%;
     display: flex;
@@ -38,4 +40,56 @@ header .logo {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* hero styling and layout */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.hero-container {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-top: 0px;
+}
+
+.hero-text {
+    width: 40%;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    width: 40%;
+    height: auto;
+    min-width: 300px;
+    max-width: 500px;
+    flex: 1 1 auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 30px;
 }
