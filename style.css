@@ -177,3 +177,41 @@ button {
     margin-top: 20px;
 }
 
+/* CTA section layout and styling */
+
+.cta-section {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.cta {
+    width: 60%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.cta-text {
+    width: 60%;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cta-text h3 {
+    margin: 0px;
+}
+
+.cta button {
+    border-color: #f9faf8;
+    border-style: solid;
+    border-width: 2px;
+}
