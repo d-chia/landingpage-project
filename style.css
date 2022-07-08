@@ -157,7 +157,7 @@ button {
 }
 
 .container-quote {
-    width: 50%;
+    width: 60%;
 }
 
 .container-quote p {
@@ -214,4 +214,21 @@ button {
     border-color: #f9faf8;
     border-style: solid;
     border-width: 2px;
+}
+
+/* footer layout and styling */
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #E5E7EB;
 }
